@@ -1,0 +1,50 @@
+.student-home {
+    background-color: #282a36;
+    color: #f8f8f2;
+    overflow-x: hidden; /* Removes horizontal scrolling */
+}
+
+.header {
+    background-color: #282a36;
+    position: fixed;
+    border-bottom: 2px solid #44475a;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar-brand, .dropdown-item, .fs-5 {
+    color: #f8f8f2;
+}
+
+.content {
+    top: 70px; /* Adds space to avoid content hiding behind the fixed header */
+    color: #f8f8f2;
+    padding: 20px;
+    overflow-x: hidden; /* Ensures content area doesn't cause horizontal scrolling */
+}
+
+.button {
+    color: #f8f8f2;
+    border-color: #44475a;
+}
+
+/* Custom scrollbar styles */
+.sidebar::-webkit-scrollbar {
+    width: 8px;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+    background-color: #44475a;
+    border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background-color: #6272a4;
+}
+
+.sidebar::-webkit-scrollbar-track {
+    background-color: #282a36;
+    border-radius: 10px;
+}

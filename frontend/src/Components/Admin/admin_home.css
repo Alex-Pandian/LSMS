@@ -1,0 +1,95 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+
+
+/* Wrapper styles */
+.wrapper {
+  display: flex;
+  position: relative;
+}
+.hamburger-icon {
+  width: 30px;
+  height: 20px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.bar {
+  width: 100%;
+  height: 4px;
+  background-color: white;
+}
+
+/* Sidebar styles */
+.sidebar {
+  position: fixed;
+  width: 130px;
+  height: 100%;
+  background-color: rgb(15, 130, 224);
+  padding: 30px 0;
+}
+
+.sidebar h2 {
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  list-style-type: none;
+}
+
+.sidebar button {
+  color: white;
+  padding: 15px;
+  display: block;
+  border: none;
+  background-color: rgb(15, 130, 224);
+  width: 100%;  /* Ensure button takes full width */
+  text-align: left;
+  cursor: pointer;
+}
+
+.sidebar button:hover {
+  background-color: rgb(7, 80, 139);
+}
+
+
+
+/* Tab button styles */
+.tab-button {
+  background: white;
+}
+
+.tab-button.active {
+  background: rgb(15, 130, 224);
+  color: white;
+  font-weight: bold;
+}
+header{
+  color: white;
+  background-color: rgb(16, 110, 187);
+  text-align: center;
+  height:80px;
+  padding:20px;
+  margin-left:130px;
+}
+.tab-content{
+  margin-left:170px;
+}
